@@ -1,0 +1,4 @@
+baseURL = 'https://lapetitevadrouile.fr/'
+languageCode = 'fr'
+title = 'La petite vadrouille'
+theme = 'hugo-theme-cleanwhite'
