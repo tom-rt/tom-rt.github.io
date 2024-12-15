@@ -5,12 +5,12 @@
   {{ partial "head.html" . }}
 </head>
 
-<body class="flex bg-red-300">
-  <header class="w-full flex flex-row">
+<body class="flex bg-neutral-50 flex-col h-100">
+  <header class="w-full flex flex-row fixed">
     {{ partial "header.html" . }}
   </header>
-  <main>
-    {{/*  {{ block "main" . }}{{ end }}  */}}
+  <main class="mt-10">
+    {{ block "main" . }}{{ end }}
   </main>
   <footer>
     {{/*  {{ partial "footer.html" . }}  */}}
