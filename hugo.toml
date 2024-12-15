@@ -1,4 +1,4 @@
-baseURL = 'https://lapetitevadrouile.fr/'
+baseURL = 'https://lapetitevadrouille.fr/'
 languageCode = 'fr'
 title = 'La petite vadrouille'
 theme = 'lpv'

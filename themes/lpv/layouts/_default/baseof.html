@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" class="h-full">
 
 <head>
   {{ partial "head.html" . }}
 </head>
 
-<body class="flex bg-neutral-50 flex-col h-100">
+<body class="flex bg-neutral-50 flex-col h-full">
   <header class="w-full flex flex-row fixed">
     {{ partial "header.html" . }}
   </header>
-  <main class="mt-10">
+  <main class="mt-14 main-padding h-full">
     {{ block "main" . }}{{ end }}
   </main>
-  <footer>
+  {{/*  <footer>  */}}
     {{/*  {{ partial "footer.html" . }}  */}}
-  </footer>
+  {{/*  </footer>  */}}
 </body>
-
 </html>
